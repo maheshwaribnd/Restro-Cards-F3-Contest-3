@@ -50,8 +50,8 @@ let orderPreparation = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve({ order_status: true, paid: false });
-        })
-    }, 4500)
+        }, 4500)
+    })
 }
 
 
@@ -59,8 +59,8 @@ let payOrder = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve({ order_status: true, paid: true })
-        })
-    }, 6000)
+        }, 6000)
+    })
 }
 
 
