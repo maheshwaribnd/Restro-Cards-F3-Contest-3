@@ -66,7 +66,7 @@ let payOrder = () => {
 
 let ThankYou = () => {
     // if (paid) {
-    // alert("Thank You for Order!")
+    alert("Thank You for Order!")
     console.log("Thank You");
     // }
 }
